@@ -139,6 +139,7 @@
     <Compile Include="Connectors\UnsolicitedDataEventArgs.cs" />
     <Compile Include="Connectors\Util.cs" />
     <Compile Include="DataTypes\AD.cs" />
+    <Compile Include="DataTypes\ADXPPL.cs" />
     <Compile Include="DataTypes\ADXP.cs" />
     <Compile Include="DataTypes\ANY.cs" />
     <Compile Include="DataTypes\BAG.cs" />

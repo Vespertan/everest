@@ -1,6 +1,8 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29306.81
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gpmr", "gpmr\gpmr.csproj", "{474F5244-97D6-42B1-8664-122876EB56BF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MohawkCollege.EHR.gpmr.COR", "gpmr\MohawkCollege.EHR.gpmr.COR\MohawkCollege.EHR.gpmr.COR.csproj", "{6C99D22F-AD3D-4532-9441-C0E616C87261}"
@@ -38,6 +40,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MohawkCollege.EHR.gpmr.Pipeline.Renderer.XML.ITS", "gpmr\MohawkCollege.EHR.gpmr.Pipeline.Renderer.XML.ITS\MohawkCollege.EHR.gpmr.Pipeline.Renderer.XML.ITS.csproj", "{86C6F736-D65C-4022-921E-45F97948D46D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MohawkCollege.EHR.gpmr.Pipeline.Triggers.CorDelta", "MohawkCollege.EHR.gpmr.Pipeline.Triggers.CorDelta\MohawkCollege.EHR.gpmr.Pipeline.Triggers.CorDelta.csproj", "{A36444C8-6A75-4F38-967E-17B8218775AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{D85DC08F-21A5-4EF4-8E9A-D7E9A53E6E0F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -199,8 +203,19 @@ Global
 		{A36444C8-6A75-4F38-967E-17B8218775AA}.TFS Build - Check-in|Any CPU.Build.0 = Release|Any CPU
 		{A36444C8-6A75-4F38-967E-17B8218775AA}.TFS Build - Nightly|Any CPU.ActiveCfg = Release|Any CPU
 		{A36444C8-6A75-4F38-967E-17B8218775AA}.TFS Build - Nightly|Any CPU.Build.0 = Release|Any CPU
+		{D85DC08F-21A5-4EF4-8E9A-D7E9A53E6E0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D85DC08F-21A5-4EF4-8E9A-D7E9A53E6E0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D85DC08F-21A5-4EF4-8E9A-D7E9A53E6E0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D85DC08F-21A5-4EF4-8E9A-D7E9A53E6E0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D85DC08F-21A5-4EF4-8E9A-D7E9A53E6E0F}.TFS Build - Check-in|Any CPU.ActiveCfg = Release|Any CPU
+		{D85DC08F-21A5-4EF4-8E9A-D7E9A53E6E0F}.TFS Build - Check-in|Any CPU.Build.0 = Release|Any CPU
+		{D85DC08F-21A5-4EF4-8E9A-D7E9A53E6E0F}.TFS Build - Nightly|Any CPU.ActiveCfg = Release|Any CPU
+		{D85DC08F-21A5-4EF4-8E9A-D7E9A53E6E0F}.TFS Build - Nightly|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E7747B15-381D-4FA9-8090-7F61E4C3FB80}
 	EndGlobalSection
 EndGlobal

@@ -115,8 +115,16 @@ namespace MARC.Everest.Formatters.XML.Datatypes.R1.Formatters
                     else
                         throw new MessageValidationException(string.Format("Can't represent address part '{0}' in datatypes R1 at '{1}'", part.Type, (s as XmlStateWriter).CurrentPath));
 
-                    ADXPFormatter adFormatter = new ADXPFormatter();
-                    adFormatter.Graph(s, part, result);
+                    if (part is ADXPPL)
+                    {
+                        ADXPPLFormatter adFormatter = new ADXPPLFormatter();
+                        adFormatter.Graph(s, part, result);
+                    }
+                    else
+                    {
+                        ADXPFormatter adFormatter = new ADXPFormatter();
+                        adFormatter.Graph(s, part, result);
+                    }
                     
                     s.WriteEndElement();
                 }

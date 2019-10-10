@@ -451,7 +451,7 @@ namespace MARC.Everest.DataTypes
             II pub = new II(root, extension);
             pub.Flavor = "II.PUBLIC";
             pub.Displayable = true;
-            pub.Use = IdentifierUse.Business;
+            pub.Scope = IdentifierScope.BusinessIdentifier;
             return pub;
         }
 

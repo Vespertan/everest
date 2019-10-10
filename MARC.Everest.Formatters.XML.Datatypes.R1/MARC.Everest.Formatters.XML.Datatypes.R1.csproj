@@ -101,6 +101,7 @@
     <Compile Include="DatatypeFormatter.cs" />
     <Compile Include="DatatypeFormatterGraphResult.cs" />
     <Compile Include="Formatters\ADFormatter.cs" />
+    <Compile Include="Formatters\ADXPPLFormatter.cs" />
     <Compile Include="Formatters\ADXPFormatter.cs" />
     <Compile Include="Formatters\ANYFormatter.cs" />
     <Compile Include="Formatters\BAGFormatter.cs" />

@@ -388,7 +388,7 @@ namespace MARC.Everest.Formatters.XML.ITS1
         /// Creates a new instance of the Formatter class
         /// </summary>
         public XmlIts1Formatter ()
-	    {
+        {
             this.ValidateConformance = true;
             this.CreateRequiredElements = false;
             GenerateInMemory = true;
@@ -402,7 +402,7 @@ namespace MARC.Everest.Formatters.XML.ITS1
             System.Diagnostics.Trace.TraceInformation("{0}", this.Settings);
             #endif
             #endif
-	    }
+        }
 
         /// <summary>
         /// Destroys the instance of the formatter class
