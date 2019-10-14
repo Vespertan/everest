@@ -404,7 +404,14 @@ namespace MARC.Everest.DataTypes
             }
             set
             {
-                items[index] = value;
+                if (index == items.Count)
+                {
+                    items.Add(value);
+                }
+                else
+                {
+                    items[index] = value;
+                }
             }
         }
 

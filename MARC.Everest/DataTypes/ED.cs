@@ -685,7 +685,7 @@ namespace MARC.Everest.DataTypes
                 MemoryStream ms = new MemoryStream();
                 try
                 {
-                    XmlWriter xw = XmlWriter.Create(ms, new XmlWriterSettings() { OmitXmlDeclaration = true});
+                    XmlWriter xw = XmlWriter.Create(ms, new XmlWriterSettings() { OmitXmlDeclaration = true, Encoding = new UTF8Encoding(false)});
                     value.WriteTo(xw);
                     xw.Close();
 
